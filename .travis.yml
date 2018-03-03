@@ -4,8 +4,8 @@ install:
   - pip install sphinx
 
 script:
-  # Use Sphinx to make the html docs
-  - make html
+  # Make the Sphinx HTML, changes to docs directory
+  - make -C docs html
   # Tell GitHub not to use jekyll to compile the docs
   - touch _build/html/.nojekyll
 

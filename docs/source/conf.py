@@ -267,6 +267,6 @@ texinfo_documents = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None,
-                       'pandas': ('http://pandas.pydata.org/pandas-docs/stable/', None),
-                       'networkx': ('https://networkx.readthedocs.io/en/stable/', None)}
+intersphinx_mapping = {'https://docs.python.org/2.7/': None,
+                       'pandas': ('https://pandas.pydata.org/pandas-docs/stable/', None),
+                       'networkx': ('https://networkx.github.io/documentation/stable/', None)}

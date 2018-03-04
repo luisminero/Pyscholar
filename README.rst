@@ -2,8 +2,8 @@
 Pyscholar
 =========
 
-|pyversion| |license|
----------------------
+|pyversion| |license| |docs|
+----------------------------
 
 A library to create science collaboration networks.
 
@@ -83,3 +83,5 @@ file for details.
 
 .. |pyversion| image:: https://img.shields.io/badge/python-2.7-brightgreen.svg
 .. |license| image:: https://img.shields.io/badge/license-GNU-blue.svg
+.. |docs| image:: https://travis-ci.org/luisminero/Pyscholar.svg?branch=docs-fix
+

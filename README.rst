@@ -71,7 +71,7 @@ with the author.
 
 .. code:: python
 
-    >>> pyscholar.find_author_scopus_id_by_name("Ruy", "Fabila-Monroy")
+    >>> pyscholar.scopus.find_author_scopus_id_by_name("Ruy", "Fabila-Monroy")
     >>> [u'56013555800', u'16635924700']
 
 License

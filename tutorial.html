@@ -16,7 +16,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="scopus module" href="scopus.html" />
+    <link rel="prev" title="Scopus Module" href="scopus.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -33,6 +33,17 @@
             
   <div class="section" id="tutorial">
 <span id="id1"></span><h1>Tutorial<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>The following function performs a search by author.
+It receives the first and last name, and returns a list of IDs associated
+with the author.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">pyscholar</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pyscholar</span><span class="o">.</span><span class="n">scopus</span><span class="o">.</span><span class="n">find_author_scopus_id_by_name</span><span class="p">(</span><span class="s2">&quot;Ruy&quot;</span><span class="p">,</span> <span class="s2">&quot;Fabila-Monroy&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="sa">u</span><span class="s1">&#39;56013555800&#39;</span><span class="p">,</span> <span class="sa">u</span><span class="s1">&#39;16635924700&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
 </div>
 
 
@@ -40,21 +51,36 @@
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper"><div class="relations">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Pyscholar</a></h1>
+
+
+
+<p class="blurb">A library to create collaboration science networks</p>
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="scopus.html">Scopus Module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorial</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="scopus.html" title="previous chapter">scopus module</a></li>
+      <li>Previous: <a href="scopus.html" title="previous chapter">Scopus Module</a></li>
   </ul></li>
 </ul>
 </div>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="_sources/tutorial.rst.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <div class="searchformwrapper">

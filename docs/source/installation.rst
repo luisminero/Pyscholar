@@ -9,6 +9,7 @@ Requirements
 Pyscholar is required to have the following packages installed:
 
 * `Python <https://www.python.org/download/releases/2.7/>`_ >=2.7
+
 * `NetworkX <https://networkx.github.io/documentation/>`_
 
   .. code-block:: console
@@ -20,6 +21,12 @@ Pyscholar is required to have the following packages installed:
   .. code-block:: console
 
      pip install matplotlib
+
+* `Pandas <http://pandas.pydata.org/pandas-docs/stable/install.html>`_
+
+  .. code-block:: console
+
+     pip install pandas
 
 .. note:: Pyscholar does not support Python 3.x
 

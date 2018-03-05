@@ -55,11 +55,11 @@ attempts = 5
 num_fetch_threads = 10
 Errors = []
 
-
+'''
 if MY_API_KEY == "":
     ans = raw_input("Scopus key not set. Do you want to set it now? (y/n) ")
     if ans.lower() == 'y':
-        key = raw_input("Your scopus api key: ")
+        key = raw_input("Your Scopus API key: ")
         keys.set('Keys', 'Scopus', key)
         cfgfile = open(os.path.join(pyscholarDir, 'keys.cfg'), 'w')
         keys.write(cfgfile)
@@ -67,6 +67,7 @@ if MY_API_KEY == "":
         MY_API_KEY = key
     else:
         raise Key_Exception
+'''
 
 search_api_author_url = "http://api.elsevier.com/content/search/author?"
 search_api_scopus_url = "http://api.elsevier.com/content/search/scopus?"

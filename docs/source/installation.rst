@@ -43,7 +43,7 @@ Once you have the API key. We continue with the installation of Pyscholar.
 
    $ git clone https://github.com/rfabila/Pyscholar.git
 
-2. Then you must run setup.py and enter your API key
+2. Then you must run setup.py and enter your API key:
 
 .. code-block:: console
 
@@ -58,7 +58,8 @@ Once you have the API key. We continue with the installation of Pyscholar.
 		      
 	 $ cd ~/Pyscholar/src
    
-    * Execute the Python REPL.
+    * Execute a Python `REPL <https://en.wikipedia.org/wiki/REPL>`_
+      with the :command:`python` or :command:`ipython` commands, for example:
 
       .. code-block:: console
 
@@ -68,7 +69,7 @@ Once you have the API key. We continue with the installation of Pyscholar.
 	 Type "help", "copyright", "credits" or "license" for more information.
 	 >>>
 	 
-    * And finally we import the package Pyscholar:
+    * Now we just need to import the package:
 
       .. code-block:: python
 

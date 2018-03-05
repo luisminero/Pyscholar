@@ -279,3 +279,6 @@ texinfo_documents = [
 intersphinx_mapping = {'python'   : ('https://docs.python.org/2.7/', None),
                        'pandas'   : ('https://pandas.pydata.org/pandas-docs/stable/', None),
                        'networkx' : ('https://networkx.github.io/documentation/stable/', None)}
+
+autodoc_mock_imports = ["django"]
+

@@ -30,7 +30,7 @@ class Alias_Exception(Exception):
 keys = ConfigParser.ConfigParser()
 pyscholarDir = os.path.join(os.path.expanduser("~"), ".pyscholar")
 
-if keys.read(os.path.join(pyscholarDir, 'keys.cfg')):
+if keys.read(os.path.join(pyscholarDir, 'keys.cfg')) is not []:
     KEY_ARRAY = keys.get('Keys', 'Scopus').split(',')
     key_index = 0
     MY_API_KEY = KEY_ARRAY[key_index]

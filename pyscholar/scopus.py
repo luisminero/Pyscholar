@@ -26,13 +26,16 @@ class Alias_Exception(Exception):
     def __str__(self):
         return "The given author_id has an alias"
 
-#Scopus keys
+# Scopus keys
 keys = ConfigParser.ConfigParser()
 pyscholarDir = os.path.join(os.path.expanduser("~"), ".pyscholar")
-keys.read(os.path.join(pyscholarDir, 'keys.cfg'))
-KEY_ARRAY = keys.get('Keys', 'Scopus').split(',')
-key_index = 0
-MY_API_KEY = KEY_ARRAY[key_index]
+
+if keys.read(os.path.join(pyscholarDir, 'keys.cfg')):
+    KEY_ARRAY = keys.get('Keys', 'Scopus').split(',')
+    key_index = 0
+    MY_API_KEY = KEY_ARRAY[key_index]
+else:
+    MY_API_KEY = ""
 
 #Connection parameters conf
 connection = ConfigParser.ConfigParser()

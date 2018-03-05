@@ -13,7 +13,6 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Scopus Module" href="scopus.html" />
@@ -38,8 +37,20 @@
 <h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
 <p>Pyscholar is required to have the following packages installed:</p>
 <ul>
-<li><p class="first"><a class="reference external" href="https://www.python.org/download/releases/2.7/">Python</a> &gt;=2.7</p>
+<li><p class="first"><a class="reference external" href="https://docs.python.org/2/using/index.html">Python 2</a> &gt;= 2.7.x.
+It can be installed on Debian-based systems with:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">apt install python</span>
+</pre></div>
+</div>
 </li>
+<li><p class="first"><a class="reference external" href="https://pip.pypa.io/en/stable/installing/">pip</a> can also be installed in Debian-based systems with:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">apt install python-pip</span>
+</pre></div>
+</div>
+</li>
+</ul>
+<p>After installing both Python and pip, the dependencies can be easily installed.</p>
+<ul>
 <li><p class="first"><a class="reference external" href="https://networkx.github.io/documentation/">NetworkX</a></p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">pip install networkx</span>
 </pre></div>
@@ -58,13 +69,17 @@
 </ul>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Pyscholar does not support Python 3.x</p>
+<p class="last">You will need admin permissions to install system-wide.</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Pyscholar does not support Python 3.</p>
 </div>
 </div>
 <div class="section" id="step-by-step-installation-guide">
 <h2>Step-by-Step Installation Guide<a class="headerlink" href="#step-by-step-installation-guide" title="Permalink to this headline">¶</a></h2>
 <p>Before installing Pyscholar you must get your API Key from the following <a class="reference external" href="http://dev.elsevier.com/myapikey.html">link</a>.</p>
-<p>Once you have the API key. We continue with the installation of Pyscholar.</p>
+<p>Once you have an API key we can continue with the installation of Pyscholar.</p>
 <ol class="arabic simple">
 <li>Clone the repository first as follows:</li>
 </ol>

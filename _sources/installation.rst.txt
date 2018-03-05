@@ -8,8 +8,21 @@ Requirements
 
 Pyscholar is required to have the following packages installed:
 
-* `Python <https://www.python.org/download/releases/2.7/>`_ >=2.7
+* `Python 2 <https://docs.python.org/2/using/index.html>`_ >= 2.7.x.
+  It can be installed on Debian-based systems with:
 
+  .. code-block:: console
+
+     apt install python
+
+* `pip <https://pip.pypa.io/en/stable/installing/>`_ can also be installed in Debian-based systems with:
+
+  .. code-block:: console
+
+     apt install python-pip
+
+After installing both Python and pip, the dependencies can be easily installed.
+   
 * `NetworkX <https://networkx.github.io/documentation/>`_
 
   .. code-block:: console
@@ -28,14 +41,15 @@ Pyscholar is required to have the following packages installed:
 
      pip install pandas
 
-.. note:: Pyscholar does not support Python 3.x
+.. note:: You will need admin permissions to install system-wide.
+.. warning:: Pyscholar does not support Python 3.
 
 Step-by-Step Installation Guide
 -------------------------------
 
 Before installing Pyscholar you must get your API Key from the following `link <http://dev.elsevier.com/myapikey.html>`_.
 
-Once you have the API key. We continue with the installation of Pyscholar.
+Once you have an API key we can continue with the installation of Pyscholar.
 
 1. Clone the repository first as follows:
 

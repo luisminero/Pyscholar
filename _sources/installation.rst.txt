@@ -53,16 +53,16 @@ Once you have an API key we can continue with the installation of Pyscholar.
 
 1. Clone the repository first as follows:
 
-.. code-block:: console
+   .. code-block:: console
 
-   $ git clone https://github.com/rfabila/Pyscholar.git
+      $ git clone https://github.com/rfabila/Pyscholar.git
 
 2. Then you must run setup.py and enter your API key:
 
-.. code-block:: console
+   .. code-block:: console
 
-   $ python setup.py
-   $ Your Scopus API key: (Here you enter your API key)
+      $ python setup.py
+      $ Your Scopus API key: (Here you enter your API key)
 
 3.  Finally we can check the installation by doing the following:
 

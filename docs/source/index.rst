@@ -11,9 +11,9 @@ Pyscholar gives you easy, pythonic access to Scopus' API.
 
 Some of the functionalities implemented in Pyscholar are:
 
-* Retrieve information about authors affiliated to Scopus.
-* Retrieve information about articles registered in Scopus.
-* Retrieve information about institutions registered in Scopus.
+  * Retrieve information about authors affiliated to Scopus.
+  * Retrieve information about articles registered in Scopus.
+  * Retrieve information about institutions registered in Scopus.
 
 
 Pyscholar can also build citation and coauthor graphs with this information.

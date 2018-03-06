@@ -66,11 +66,11 @@ Once you have an API key we can continue with the installation of Pyscholar.
 
 3.  Finally we can check the installation by doing the following:
 
-    * Navigate to the installation directory from the command line.
+    * Navigate to the installation directory from the command line, if cloned in home directory:
 
       .. code-block:: console
 		      
-	 $ cd ~/Pyscholar/src
+	 $ cd ~/Pyscholar
    
     * Execute a Python `REPL <https://en.wikipedia.org/wiki/REPL>`_
       with the :command:`python` or :command:`ipython` commands, for example:

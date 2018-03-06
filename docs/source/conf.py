@@ -30,8 +30,7 @@ sys.path.insert(0, os.path.abspath('../../pyscholar'))
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.autosummary'
+    'sphinx.ext.intersphinx'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -276,5 +275,5 @@ intersphinx_mapping = {'python'   : ('https://docs.python.org/2.7/', None),
                        'pandas'   : ('https://pandas.pydata.org/pandas-docs/stable/', None),
                        'networkx' : ('https://networkx.github.io/documentation/stable/', None)}
 
-autodo_mock_imports = ["pandas"]
+autodoc_mock_imports = ["pandas"]
 
